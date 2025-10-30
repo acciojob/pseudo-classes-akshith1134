@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+ :root {
+      background-color: rgb(135, 206, 235);
+    }
+
+    body {
+      margin: 0;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    
+    article p:first-child {
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+    article p:nth-child(2) {
+      color: black;
+      background-color: transparent;
+      padding: 5px 0;
+    }
+
+    article p:last-child {
+      color: red;
+      padding: 5px 0;
+    }
+
+  
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      width: 50%;
+      background-color: white;
+      margin: 10px 0;
+    }
+
+    ul li {
+      width: 100%;
+      padding: 10px;
+      background-color: gray;
+    }
+
+    ul li:nth-child(odd) {
+      background-color: white;
+    }
+
+  
+    ul li:nth-last-child(3) {
+      background-color: pink;
+    }
+
+  
+    ul li:first-child,
+    ul li:last-child {
+      font-size: 22px;
+      font-weight: bold;
+    }
